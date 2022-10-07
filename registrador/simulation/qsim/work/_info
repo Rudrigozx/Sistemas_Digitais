@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\rodri\Downloads\SD\registrador\simulation\qsim
+vregistrador
+Z1 !s100 0P6;A]4o16DgNhz0l4:e=1
+Z2 Ij5`f0Tm_:25<az2BY_0U62
+Z3 VDgioK3d7R>J@VZ0>Gn5?k2
+Z4 dC:\Users\rodri\Downloads\SD\registrador\simulation\qsim
+Z5 w1664501568
+Z6 8registrador.vo
+Z7 Fregistrador.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|registrador.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1664501568.767000
+Z12 !s107 registrador.vo|
+!s101 -O0
+vregistrador_vlg_check_tst
+!i10b 1
+Z13 !s100 b<9B>=^W6<J1^ELd?TgRN0
+Z14 Id]DE>LFQ3=a0TlYEQ69C52
+Z15 Vgc2Wc<1Z[JblSGG;F1^@h1
+R4
+Z16 w1664501566
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z19 !s108 1664501568.876000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+vregistrador_vlg_sample_tst
+!i10b 1
+Z22 !s100 hYFdl=bF5acOfW4o1Pm]M0
+Z23 IIdS;kfEIDi@8i>fo>>1ga2
+Z24 VSU8nY1bQ8GL;48G_0An2V1
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vregistrador_vlg_vec_tst
+!i10b 1
+Z25 !s100 J93ULW3g2o8g:[cFbc5;A1
+Z26 If;WUU348`PYDl4U:h`F`J0
+Z27 VJOI0HCBdUDZ?_N=POb]j80
+R4
+R16
+R17
+R18
+Z28 L0 279
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

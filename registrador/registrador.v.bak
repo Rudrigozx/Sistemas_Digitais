@@ -1,0 +1,15 @@
+module registrador_8bits(
+input clk,
+input [7:0] in,
+output reg [7:0] out
+);
+
+reg [7:0] value;
+
+always @(posedge clk)
+begin
+value = in;
+out = value;
+end
+
+endmodule

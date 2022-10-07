@@ -1,0 +1,24 @@
+module ula(
+input clk,
+input [7:0] value_in,
+input [1:0] op,
+output reg[7:0] vout_t
+);
+
+always @(posedge clk)
+begin	
+	case(op)
+		if(op == 2'b11 ):
+				value_in = value_in + 1;
+		
+		if(op == 2'b00 ):
+				value_in = value_in - 1;
+				
+		if(op == 2'b00 ):
+				value_in = value_in - 1;
+		
+		end
+	endcase
+end
+
+endmodule

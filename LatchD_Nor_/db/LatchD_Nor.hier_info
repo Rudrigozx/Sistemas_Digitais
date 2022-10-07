@@ -1,0 +1,8 @@
+|LatchD_Nor
+D => Qinter.IN0
+D => Qninter.IN1
+E => ~NO_FANOUT~
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qinter.DB_MAX_OUTPUT_PORT_TYPE
+
+

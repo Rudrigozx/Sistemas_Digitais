@@ -1,0 +1,67 @@
+module top_level(
+input clk_t,
+input [1:0] a_t,
+input [1:0] op_t,
+output reg [7:0] vout_t
+);
+
+wire clk_inter;
+wire [1:0] a_inter;
+wire [7:0] value_inter;
+
+memory mem_i(.clk(clk_inter), .a(a_inter), .out(value_inter));
+ula ula_i(.value_in(value_inter), .op(op_t), .vout_t(vout_t));
+
+endmodule
+
+
+----------------------------------------------------------------
+
+
+module ula(
+input clk,
+input [7:0] value_in,
+input [1:0] op,
+output reg[7:0] vout_t
+);
+
+always @(posedge clk)
+begin	
+	case(op)
+		if(op == 2'b11 ):
+				value_in = value_in + 1;
+		
+		if(op == 2'b00 ):
+				value_in = value_in - 1;
+				
+		if(op == 2'b00 ):
+				value_in = value_in - 1;
+		
+		end
+	endcase
+end
+
+endmodule
+
+
+-----------------------------------------------------
+
+
+module memory(
+input clk,
+input [1:0] a,
+output reg[7:0] out
+);
+
+always @(posedge clk)
+begin
+	case(a)
+		2'b00: out = 8'b11111111;
+		2'b01: out = 8'b00111111;
+		2'b10: out = 8'b00001111;
+		2'b11: out = 8'b00000011;
+	endcase
+
+end
+
+endmodule

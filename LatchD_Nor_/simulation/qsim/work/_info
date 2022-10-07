@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\rodri\Downloads\SD\LatchD_Nor_\simulation\qsim
+vLatchD_Nor
+Z1 I<Dn2T1BkEnmoUheTUc7zb0
+Z2 Vlok6cGdN5MFX^UzZcieKe1
+Z3 dC:\Users\rodri\Downloads\SD\LatchD_Nor_\simulation\qsim
+Z4 w1664547406
+Z5 8LatchD_Nor.vo
+Z6 FLatchD_Nor.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@latch@d_@nor
+!i10b 1
+Z10 !s100 kSNgKZf7B3;9bI:Xd=_0N0
+!s85 0
+Z11 !s108 1664547407.422000
+Z12 !s107 LatchD_Nor.vo|
+Z13 !s90 -work|work|LatchD_Nor.vo|
+!s101 -O0
+vLatchD_Nor_vlg_check_tst
+!i10b 1
+!s100 o@m8Z9begBE]dZdmSEha90
+IN4h89l7e6k4SF00aTl@Vn2
+V1j8RcE?BH<]Tl^A8LjKmH3
+R3
+Z14 w1664547405
+Z15 8Waveform.vwf.vt
+Z16 FWaveform.vwf.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z17 !s108 1664547407.574000
+Z18 !s107 Waveform.vwf.vt|
+Z19 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+n@latch@d_@nor_vlg_check_tst
+vLatchD_Nor_vlg_sample_tst
+!i10b 1
+!s100 <]W3G2W8?S5WSPB;7<iNX2
+InOn>NXF2?=7n2YAbeaL0U1
+Vhac?jcD];L05[`IkN:MPz2
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@latch@d_@nor_vlg_sample_tst
+vLatchD_Nor_vlg_vec_tst
+!i10b 1
+!s100 a?=2W;F@?<DHoRVj]@og20
+I:NVD51hjh[6:4]hn:gc6I0
+VG`;hd735GLXmh6PAhcEhN1
+R3
+R14
+R15
+R16
+L0 181
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@latch@d_@nor_vlg_vec_tst
